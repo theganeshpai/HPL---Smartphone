@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPL - Smartphone", "Assembly-CSharp.csproj", "{5EEB77C1-A823-24EF-5483-F01805F5377E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPL - Smartphone", "Assembly-CSharp-Editor.csproj", "{FB847926-27EE-5D19-E30F-5204420BF2B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EEB77C1-A823-24EF-5483-F01805F5377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEB77C1-A823-24EF-5483-F01805F5377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEB77C1-A823-24EF-5483-F01805F5377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEB77C1-A823-24EF-5483-F01805F5377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB847926-27EE-5D19-E30F-5204420BF2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB847926-27EE-5D19-E30F-5204420BF2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB847926-27EE-5D19-E30F-5204420BF2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB847926-27EE-5D19-E30F-5204420BF2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
