@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Handcrafted Mobile/CurvedVRKeyboard/Examples/ExampleMouse.unity
+- path: Assets/Scenes/Keyboard.unity
   isLoaded: 1
   isActive: 1

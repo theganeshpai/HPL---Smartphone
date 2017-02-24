@@ -58,6 +58,7 @@
      <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\SpaceMeshCreator.cs" />
      <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\UvSlicer.cs" />
      <Compile Include="Assets\Keypad\Script\Playsound.cs" />
+     <Compile Include="Assets\Scripts\CrossHair.cs" />
      <Compile Include="Assets\Scripts\HandControllerOverride.cs" />
      <Compile Include="Assets\Scripts\PickupParent.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
