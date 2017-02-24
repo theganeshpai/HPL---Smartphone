@@ -47,8 +47,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BasicVRHands\Scripts\HandController.cs" />
-     <Compile Include="Assets\HandControllerOverride.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\ErrorReporter.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardComponent.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardCreator.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardCreatorEditor.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardItem.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardRaycaster.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\KeyboardStatus.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\MouseCam.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\SpaceMeshCreator.cs" />
+     <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\UvSlicer.cs" />
      <Compile Include="Assets\Keypad\Script\Playsound.cs" />
+     <Compile Include="Assets\Scripts\HandControllerOverride.cs" />
      <Compile Include="Assets\Scripts\PickupParent.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
@@ -155,7 +165,9 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Documentation\CHANGE_LOG.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Documentation\README.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
