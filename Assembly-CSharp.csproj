@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5EEB77C1-A823-24EF-5483-F01805F5377E}</ProjectGuid>
+    <ProjectGuid>{8A479395-992B-B8B3-53CB-81B42284B359}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,8 @@
      <Compile Include="Assets\Scripts\CrossHair.cs" />
      <Compile Include="Assets\Scripts\HandControllerOverride.cs" />
      <Compile Include="Assets\Scripts\PickupParent.cs" />
+     <Compile Include="Assets\Scripts\UIIgnoreRaycast.cs" />
+     <Compile Include="Assets\Scripts\ViveControllerInput.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
