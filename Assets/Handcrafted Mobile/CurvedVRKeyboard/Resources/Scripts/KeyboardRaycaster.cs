@@ -22,6 +22,11 @@ namespace CurvedVRKeyboard {
         [SerializeField, HideInInspector]
         private string clickInputName;
 
+        //---Crosshair---
+        public Texture chTex;
+        public float chScale = 1;
+
+
         void Start () {
             keyboardStatus = gameObject.GetComponent<KeyboardStatus>();
             int layerNumber = gameObject.layer;
@@ -33,6 +38,20 @@ namespace CurvedVRKeyboard {
             RayCastKeyboard();
         }
 
+        void OnGUI()
+        {
+            //GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 100, 100), chTex);
+            GUI.DrawTexture(new Rect((Screen.width) / 2, (Screen.height) / 2, Screen.width * chScale, Screen.height * chScale), chTex);
+        }
+
+        /*void RayShoot()
+        {
+            //var directionRay = Camera.main.ScreenPointToRay(Screen.width/2, Screen.height/2);
+            var directionRay = transform.forward;
+            Debug.DrawRay(transform.position, directionRay * rayLength, Color.red);
+        }
+
+    */
         /// <summary>
         /// Check if camera is pointing at any key. 
         /// If it does changes state of key
@@ -78,4 +97,5 @@ namespace CurvedVRKeyboard {
             this.target = target;
         }
     }
+
 }
