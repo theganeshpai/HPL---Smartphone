@@ -23,8 +23,8 @@ namespace CurvedVRKeyboard {
         private string clickInputName;
 
         //---Crosshair---
-        public Texture chTex;
-        public float chScale = 1;
+        public Texture crosshairTexture;
+        public float crosshairScale = 1;
 
 
         void Start () {
@@ -40,8 +40,8 @@ namespace CurvedVRKeyboard {
 
         void OnGUI()
         {
-            //GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 100, 100), chTex);
-            GUI.DrawTexture(new Rect((Screen.width) / 2, (Screen.height) / 2, Screen.width * chScale, Screen.height * chScale), chTex);
+            //GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 100, 100), crosshairTexture);
+            GUI.DrawTexture(new Rect((Screen.width - crosshairTexture.width * crosshairScale) / 2, (Screen.height - crosshairTexture.height * crosshairScale) / 2, Screen.width * crosshairScale, Screen.height * crosshairScale), crosshairTexture);
         }
 
         /*void RayShoot()
